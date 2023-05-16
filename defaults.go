@@ -3,11 +3,12 @@ package sprig
 import (
 	"bytes"
 	"encoding/json"
-	"gopkg.in/yaml.v3"
 	"math/rand"
 	"reflect"
 	"strings"
 	"time"
+
+	"sigs.k8s.io/yaml"
 )
 
 func init() {
